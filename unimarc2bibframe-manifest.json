@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "mediawiki": {
+        "name": "The SHARE Catalogue mapping knowledge base",
+        "root": "https://unimarc2bibframe.wikibase.cloud/wiki/",
+        "main_page": "https://unimarc2bibframe.wikibase.cloud/wiki/Main_Page",
+        "api": "https://unimarc2bibframe.wikibase.cloud/w/api.php"
+    },
+    "wikibase": {
+        "site_iri": "https://unimarc2bibframe.wikibase.cloud/entity/",
+        "maxlag": 5,
+        "properties": {
+            "instance_of": "P1",
+            "subclass_of": "P2"
+        }
+    },
+    "oauth": {
+        "registration_page": "https://unimarc2bibframe.wikibase.cloud/wiki/Special:OAuthConsumerRegistration/propose"
+    },
+    "reconciliation": {
+        "endpoint": "https://unimarc2bibframe.reconci.link/${lang}/api"
+    }
+}
